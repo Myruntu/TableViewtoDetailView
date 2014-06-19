@@ -19,6 +19,7 @@ class MainVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "World Cup Favs"
     }
 
     override func didReceiveMemoryWarning() {
